@@ -1,0 +1,24 @@
+/*
+ * GBA的内存空间划分
+ */
+
+#ifndef memmap_H_
+#define memmap_H_
+
+#define INTERNAL_RAM_OFFSET 0x03000000
+
+#define REGISTER_OFFSET 0x04000000
+
+#define PALETTE_RAM_OFFSET 0x50000000
+
+#define VARM_OFFSET 0x06000000
+
+#define OAM_OFFSET 0x07000000
+
+#define ROM_OFFSET 0x08000000
+
+#define ROM_MIRROR1_OFFSET 0x0A000000
+
+#define ROM_MIRROR2_OFFSET 0x0C000000
+
+#endif
